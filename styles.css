@@ -1,0 +1,26 @@
+/* Estilo base */
+#toggle {
+    display: none;
+}
+
+#label_toggle {
+    cursor: pointer;
+}
+
+/* Modo oscuro */
+.dark {
+    background-color: #333;
+    color: white;
+    transition: all 1.5s ease;
+}
+
+.dark .navbar {
+    background-color: #444; /* Ajusta el color de fondo de la barra de navegación */
+    color: rgb(255, 255, 255);
+    color-scheme: white;
+}
+
+.dark .navbar .nav-link,
+.dark .navbar .navbar-brand {
+    color: rgb(58, 58, 56) !important; /* Asegura que los enlaces y la marca cambien a blanco */
+}
