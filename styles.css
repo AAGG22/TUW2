@@ -28,4 +28,5 @@
     width: 150%; /* La imagen será inicialmente el 50% del ancho del contenedor */
     height: auto; /* Mantiene la proporción de aspecto */
     display: block; /* Asegura que los márgenes automáticos funcionen correctamente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
