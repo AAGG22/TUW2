@@ -24,3 +24,8 @@
 .dark .navbar .navbar-brand {
     color: rgb(58, 58, 56) !important; /* Asegura que los enlaces y la marca cambien a blanco */
 }
+#svg{
+    width: 150%; /* La imagen será inicialmente el 50% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block; /* Asegura que los márgenes automáticos funcionen correctamente */
+  
